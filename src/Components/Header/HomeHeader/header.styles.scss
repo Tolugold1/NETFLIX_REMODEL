@@ -1,0 +1,292 @@
+$button-color: rgb(230,50,47);
+.header-container {
+   background: linear-gradient(to bottom, hsl(120, 38%, 12%, 0.89), hsl(0, 0%, 0%, 0.25), hsl(120, 38%, 12%, 0.89)),
+                  url(../../../../public/assets/bgimage.jpeg)no-repeat center center / cover
+               ;
+   height: 97vh;
+   width: 100vw;
+
+   .nav-head {
+      padding: 25px;
+      display: flex;
+
+      .netflix {
+         color: #e6322f;
+         float: left;
+         display: block;
+      }
+      .netflix > span[class^=w]:nth-of-type(n + 0) {
+         display: block;
+         position: absolute;
+         transform-origin: 50% 100%;
+         -moz-transform-origin: 50% 100%;
+         -webkit-transform-origin: 50% 100%;
+         -o-transform-origin: 50% 100%;
+         -ms-transform-origin: 50% 100%;
+      }
+      .netflix span {
+         font-size: 40px;
+         letter-spacing: 4px;
+         overflow: visible;
+         padding: 0px;
+         font-weight: 700;
+      }
+      .netflix .w0 {
+         -moz-transform: rotate(-0.3rad);
+         -ms-transform: rotate(-0.3rad);
+         -o-transform: rotate(-0.3rad);
+         -webkit-transform: rotate(-0.3rad);
+         transform: rotate(-0.1rad);
+         width: 21px;
+         left: 40px;
+         top: 15px;
+      }
+      .netflix .w1 {
+         -moz-transform: rotate(0.2rad);
+         -ms-transform: rotate(-1.14rad);
+         -o-transform: rotate(-1.14rad);
+         -webkit-transform: rotate(-1.14rad);
+         transform: rotate(-0.09rad);
+         width: 21px;
+         left: 70px;
+         top: 12px;
+      }
+      .netflix .w2 {
+         -moz-transform: rotate(-1.14rad);
+         -ms-transform: rotate(-1.14rad);
+         -o-transform: rotate(-1.14rad);
+         -webkit-transform: rotate(-1.14rad);
+         transform: rotate(-0.07rad);
+         width: 21px;
+         left: 95px;
+         top: 10px;
+      }
+      .netflix .w3 {
+         -moz-transform: rotate(-1.14rad);
+         -ms-transform: rotate(-1.14rad);
+         -o-transform: rotate(-1.14rad);
+         -webkit-transform: rotate(-1.14rad);
+         transform: rotate(0.0rad);
+         width: 21px;
+         left: 120px;
+         top: 10px;
+      }
+      .netflix .w4 {
+         -moz-transform: rotate(-1.14rad);
+         -ms-transform: rotate(-1.14rad);
+         -o-transform: rotate(-1.14rad);
+         -webkit-transform: rotate(-1.14rad);
+         transform: rotate(0.07rad);
+         width: 21px;
+         left: 142px;
+         top: 10px;
+      }
+      .netflix .w5 {
+         -moz-transform: rotate(-1.14rad);
+         -ms-transform: rotate(-1.14rad);
+         -o-transform: rotate(-1.14rad);
+         -webkit-transform: rotate(-1.14rad);
+         transform: rotate(0.09rad);
+         width: 21px;
+         left: 165px;
+         top: 12px;
+      }
+      .netflix .w6 {
+         -moz-transform: rotate(-1.14rad);
+         -ms-transform: rotate(-1.14rad);
+         -o-transform: rotate(-1.14rad);
+         -webkit-transform: rotate(-1.14rad);
+         transform: rotate(0.1rad);
+         width: 21px;
+         left: 180px;
+         top: 14px;
+      }
+      .net-btn {
+         margin-left: auto;
+         background-color: $button-color;
+         border: 0;
+         padding: 0 25px;
+         border-radius: 10px;
+         font-size: 28px;
+      }
+      .net-btn:hover {
+         transform: translate(0px, -2px);
+      }
+   }
+
+   .intro {
+      margin: auto;
+      
+      .head-text {
+
+         margin:  auto;
+         .ht1 {
+            width: 600px;
+            margin: 140px auto 0px ;
+            font-size: 3.80rem;
+            font-weight: 700;
+            text-align:center;
+         }
+   
+         .ht2 {
+            width: 600px;
+            margin: 0 auto;
+            font-weight: 400;
+            text-align: center;
+            letter-spacing: 2px;
+         }
+         .ht3 {
+   
+            margin: 20px auto;
+            font-weight: 400;
+            text-align: center;
+            letter-spacing: 2px;
+         }
+      }
+
+      .email_form {
+         margin: auto;
+
+         .email_row {
+            margin: auto;
+
+            .fill-in {
+               margin-left: auto;
+
+               .form-input {
+                  height: 60px;
+                  line-height: 3;
+                  border: 0;
+                  border-top-left-radius: 10px;
+                  border-bottom-left-radius: 10px;
+                  border-top-right-radius: 0;
+                  border-bottom-right-radius: 0;
+               }
+               .feedback {
+                  display: block;
+                  color: #e6322f;
+               }
+               .nfeedback {
+                  display: none;
+               }
+            }
+            .start {
+               margin-right: auto;
+               .form-btn {
+                  height: 60px;
+                  width: 210px;
+                  background-color: $button-color;
+                  border: 0;
+                  margin-left: 2.5px;
+                  display: flex;
+                  align-items: center;
+                  border-top-left-radius: 0px;
+                  border-bottom-left-radius: 0px;
+                  border-top-right-radius: 10px;
+                  border-bottom-right-radius: 10px;
+
+                  .G-started {
+                     margin-right: auto;
+                  }
+                  .arrow {
+                     width: 40px;
+                     height: 40px;
+                  }
+               }
+               .form-btn:hover {
+                  transform: translate(0px, -2px);
+               }
+            }
+         }
+      }
+
+
+
+      @media (min-width: 1200px) {
+               
+      }
+      
+      @media (min-width: 998px) and (max-width: 1200px) {
+      }
+      
+      @media (min-width: 768px) and (max-width: 997px) {
+      
+      }
+      
+      @media (max-width: 767px) {
+      
+            .head-text {
+      
+               margin:  auto;
+      
+               .ht1 {
+                  width: 600px;
+                  margin: 100px auto 0px;
+                  font-size: 2.80rem;
+                  font-weight: 700;
+                  text-align:center;
+               }
+      
+               .ht2 {
+                  width: 600px;
+                  margin: 0 auto;
+                  font-weight: 400;
+                  text-align: center;
+                  letter-spacing: 2px;
+               }
+               .ht3 {
+      
+                  margin: 20px auto;
+                  font-weight: 400;
+                  text-align: center;
+                  letter-spacing: 2px;
+               }
+            }
+      
+      
+         .email_form {
+            margin: auto;
+      
+            .email_row {
+               margin: auto;
+      
+               .fill-in {
+                  margin: auto;
+
+                  .form-input {
+                     height: 60px;
+                     line-height: 3;
+                     border: 0;
+                     border-top-left-radius: 10px;
+                     border-bottom-left-radius: 10px;
+                     border-top-right-radius: 10px;
+                     border-bottom-right-radius: 10px;
+                  }
+               }
+            
+               .start {
+                  margin: auto;
+                  display: flex;
+                  align-items: center;
+                  margin-top: 20px;
+
+                  .form-btn {
+                     height: 60px;
+                     width: 210px;
+                     background-color: $button-color;
+                     border: 0;
+                     margin-left: 2.5px;
+                     display: flex;
+                     align-items: center;
+                     border-top-left-radius: 10px;
+                     border-bottom-left-radius: 10px;
+                     border-top-right-radius: 10px;
+                     border-bottom-right-radius: 10px;
+                  }
+               }
+            }
+         }
+      }
+      
+   }
+}

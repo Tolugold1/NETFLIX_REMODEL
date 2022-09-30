@@ -1,0 +1,149 @@
+.watch {
+    background-color: #fefae0;
+    padding: 60px;
+    color: black;
+ 
+    .watch-card {
+       
+       background-color: color;
+       box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+       -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+       -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+       padding: 30px;
+       margin: 0 auto;
+       border-radius: 10px;
+ 
+       .watch-row {
+ 
+ 
+          .watch-card1 {
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             text-align: center;
+             margin-bottom: 28px;
+          }
+          .watch-card1:hover {
+             border: 1px solid #e6322f,
+          }
+          .watchImg {
+             object-fit: cover;
+             object-position: center;
+          }
+          .watchImg:hover {
+             transform: translate(0px, -2px);
+          }
+ 
+          @media (max-width: 767px) {
+             .cd1 {
+                margin: 30px auto;
+             }
+          }
+       }
+       .watch-row1 {
+          margin-top: 35px;
+ 
+          .icon1 {
+             display: flex;
+             align-items: center;
+             justify-content: center;
+ 
+             .monitor1 {
+                color: #e6322f;
+                height: 60px;
+                width: 60px;
+                margin-bottom: 10px;
+             }
+          }
+          .tv-types {
+             text-align: center;
+ 
+             h2 {
+                margin-bottom: 20px;
+             }
+             
+             .type {
+                color: #656464;
+             }
+          }
+ 
+          .icon2 {
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             margin-bottom: 10px;
+ 
+             .monitor2 {
+                color: #e6322f;
+                height: 60px;
+                width: 60px;
+             }
+             .mobile1 {
+                color: #e6322f;
+                height: 40px;
+                width: 40px;
+                margin-left: -6px;
+                margin-top: 28px;
+             }
+ 
+          }
+ 
+          .available_devices {
+             text-align: center;
+ 
+             h2 {
+                margin-bottom: 20px;
+             }
+ 
+             .avail_text {
+                color: #656464;
+             }
+          }
+ 
+          .icon3 {
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             margin-bottom: 20px;
+ 
+             .icon-comp {
+ 
+                color: #e6322f;
+                height: 60px;
+                width: 60px;
+             }
+          }
+ 
+          .icon3_text {
+             text-align: center;
+ 
+             h2 {
+                margin-bottom: 20px;
+             }
+ 
+             h3 {
+                color: #656464;
+             }
+ 
+             a {
+                color: #e6322f;
+             }
+          }
+          
+       }
+    }
+ }
+ 
+ .watch_col1 {
+ 
+    padding: 30px;
+ }
+ .watch_col1:hover {
+    border: 1px solid #e6322f;
+ }
+ 
+ @media (max-width: 767px) {
+    .watch_col1 {
+       margin: 0 auto;
+    }
+ }
