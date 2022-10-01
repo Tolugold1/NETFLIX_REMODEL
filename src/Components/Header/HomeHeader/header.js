@@ -4,6 +4,7 @@ import { Button, Container, Form,Row, Input, Col, FormFeedback, FormGroup, Label
 import WatchComponent from '../../WatchComponent/Watch';
 import { VscArrowRight } from 'react-icons/vsc'
 import { Link } from "react-router-dom"
+import MovieCarousel from '../../Movies/MovieCarousel';
 
 
 
@@ -76,6 +77,7 @@ const Header = () => {
          </div>
       </Container>
       <WatchComponent />
+      <MovieCarousel />
       </>
    )
 }

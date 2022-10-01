@@ -1,0 +1,53 @@
+.movie-component {
+    padding: 20px;
+    border: 2px solid #e6322f;
+    color: black;
+    height: 600px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+    .iconss {
+        width: 100%;
+        display: flex;
+        z-index: 10;
+        position: absolute;
+
+        .right {
+            color:#e6322f;
+            margin-top: 250px;
+            margin-right: 6px;
+            width: 50px;
+            height: 50px;
+            z-index: 1;
+        }
+    
+        .left {
+            color:#e6322f;
+            margin-top: 250px;
+            margin-left: -25px;
+            margin-right: auto;
+            width: 50px;
+            height: 50px;
+        }
+    
+    }
+    .movie-inner-component {
+        display: flex;
+        left: 0px;
+        position: relative;
+
+        .movieImgTxt {
+            text-align: center;
+            margin: 0px 15px;
+            display: block;
+
+            .movie_image {
+                width: 400px;
+                height: 500px;
+                object-fit: cover;
+                object-position: center center;
+            }
+        }
+    }
+}
