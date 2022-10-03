@@ -44,42 +44,77 @@ const MovieCarousel= () => {
                     <div className="movieImgTxt">
                         <img src={movies[0].image} alt={movies[0].Action} className="movie_image"/>
                         <h3>{movies[0].Action}</h3>
+                        <div className='d-flex justify-content-center'>
+                            <h2>{movies[0].full_rate1}</h2> 
+                            <h2>{movies[0].full_rate2}</h2>
+                            <h2>{movies[0].full_rate3}</h2>
+                        </div>
                     </div>
                 </Link>
                 <Link to="">
                     <div className="movieImgTxt">
                         <img src={movies[1].image} alt={movies[1].Action} className="movie_image"/>
-                        <h3>{movies[1].Action}</h3>  
+                        <h3>{movies[1].Action}</h3> 
+                        <div className='d-flex justify-content-center'>
+                            <h2>{movies[1].full_rate1}</h2> 
+                            <h2>{movies[1].full_rate2}</h2>
+                            <h2>{movies[1].full_rate3}</h2>
+                        </div>
                     </div>
                 </Link>
                 <Link to="">
                     <div className="movieImgTxt">
                         <img src={movies[2].image} alt={movies[2].Action} className="movie_image"/>
                         <h3>{movies[2].Action}</h3>
+                        <div className='d-flex justify-content-center'>
+                            <h2>{movies[2].full_rate1}</h2> 
+                            <h2>{movies[2].full_rate2}</h2>
+                            <h2>{movies[2].full_rate3}</h2>
+                        </div>
                     </div>
                 </Link>
                 <Link to="">
                     <div className="movieImgTxt">
                         <img src={movies[3].image} alt={movies[3].Action} className="movie_image"/>
                         <h3>{movies[3].Action}</h3>
+                        <div className='d-flex justify-content-center'>
+                            <h2>{movies[3].full_rate1}</h2> 
+                            <h2>{movies[3].full_rate2}</h2>
+                            <h2>{movies[3].full_rate3}</h2>
+                        </div>
                     </div>
                 </Link>
                 <Link to="">
                     <div className="movieImgTxt">
                         <img src={movies[4].image} alt={movies[4].Action} className="movie_image"/>
                         <h3>{movies[4].Action}</h3>
+                        <div className='d-flex justify-content-center'>
+                            <h2>{movies[4].full_rate1}</h2> 
+                            <h2>{movies[4].full_rate2}</h2>
+                            <h2>{movies[4].full_rate3}</h2>
+                        </div>
                     </div>
                 </Link>
                 <Link to="">
                     <div className="movieImgTxt">
                         <img src={movies[5].image} alt={movies[5].Action} className="movie_image"/>
                         <h3>{movies[5].Action}</h3> 
+                        <div className='d-flex justify-content-center'>
+                            <h2>{movies[5].full_rate1}</h2> 
+                            <h2>{movies[5].full_rate2}</h2>
+                            <h2>{movies[5].full_rate3}</h2>
+                        </div>
                     </div>
                 </Link>
                 <Link to="">
                     <div className="movieImgTxt">
                         <img src={movies[6].image} alt={movies[6].Action} className="movie_image"/>
                         <h3>{movies[6].Action}</h3>
+                        <div className='d-flex justify-content-center'>
+                            <h2>{movies[6].full_rate1}</h2> 
+                            <h2>{movies[6].full_rate2}</h2>
+                            <h2>{movies[6].full_rate3}</h2>
+                        </div>
                     </div>
                 </Link>
             </div>

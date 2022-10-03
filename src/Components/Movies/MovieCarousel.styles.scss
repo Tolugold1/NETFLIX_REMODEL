@@ -1,8 +1,8 @@
 .movie-component {
     padding: 20px;
     border: 2px solid #e6322f;
-    color: black;
-    height: 600px;
+    background-color: black;
+    height: 680px;
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -39,15 +39,21 @@
 
         .movieImgTxt {
             text-align: center;
-            margin: 0px 15px;
+            margin: 0px 10px;
             display: block;
+            color: white;
+
+            h2 {
+                color: gold;
+            }
 
             .movie_image {
-                width: 400px;
-                height: 500px;
+                width: 380px;
+                height: 550px;
                 object-fit: cover;
                 object-position: center center;
             }
+
         }
     }
 }

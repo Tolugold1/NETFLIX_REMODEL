@@ -19,7 +19,7 @@ export  const movies = [
         Action: 'Action: kingsmen',
         full_rate1: <MdOutlineStarPurple500 />,
         full_rate2: <MdOutlineStarPurple500 />,
-        half_rate: <MdOutlineStarHalf />
+        full_rate3: <MdOutlineStarHalf />
     },
     {
         image: 'assets/lostCity.jpg',
@@ -40,7 +40,7 @@ export  const movies = [
         Action: 'Action: AI',
         full_rate1: <MdOutlineStarPurple500 />,
         full_rate2: <MdOutlineStarPurple500 />,
-        half_rate: <MdOutlineStarHalf />
+        full_rate3: <MdOutlineStarHalf />
     },
     {
         image: 'assets/northman.webp',

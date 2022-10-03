@@ -122,7 +122,7 @@ $button-color: rgb(230,50,47);
          margin:  auto;
          .ht1 {
             width: 600px;
-            margin: 65px auto 0px ;
+            margin: 20px auto 0px ;
             font-size: 3.80rem;
             font-weight: 700;
             text-align:center;
@@ -221,7 +221,7 @@ $button-color: rgb(230,50,47);
       
                .ht1 {
                   width: 600px;
-                  margin: 45px auto 0px;
+                  margin: 20px auto 0px;
                   font-size: 2.80rem;
                   font-weight: 700;
                   text-align:center;
@@ -257,6 +257,7 @@ $button-color: rgb(230,50,47);
                      height: 60px;
                      line-height: 3;
                      border: 0;
+                     margin: auto;
                      border-top-left-radius: 10px;
                      border-bottom-left-radius: 10px;
                      border-top-right-radius: 10px;
@@ -275,7 +276,7 @@ $button-color: rgb(230,50,47);
                      width: 210px;
                      background-color: $button-color;
                      border: 0;
-                     margin-left: 2.5px;
+                     margin: auto;
                      display: flex;
                      align-items: center;
                      border-top-left-radius: 10px;

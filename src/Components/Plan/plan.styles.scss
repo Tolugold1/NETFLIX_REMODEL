@@ -1,0 +1,142 @@
+.plans {
+    padding: 10px;
+
+    .choose-a-plan {
+        font-size: 30px;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+        font-weight: 400;
+        margin-bottom: 25px;
+        color: black;
+        padding-top: 90px;
+        padding-bottom: 30px;
+        width: 450px;
+        text-align: center;
+        margin-left: 95px;
+
+
+        .net {
+            color: #e6322f;
+        }
+    }
+
+    .card-row {
+        align-items: center;
+        justify-content: center;
+
+        .card-plan {
+            border: 1px solid gray;
+            border-radius: 10px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+
+
+            .image {
+                margin: 50px auto 45px;
+                text-align: center;
+                color: black;
+
+                .basic {
+                    font-size: 30px;
+                    font-weight: 600;
+                    letter-spacing: 1.5px;
+                }
+            }
+            .basic-text {
+                text-align: center;
+                .hd {
+                    color: black;
+                    font-size: 28px;
+                    margin-bottom: 25px;
+                    font-weight: 500;
+                }
+                .UntraHd, .no-of-watch {
+                    color: grey;
+                    font-weight: 500;
+                    word-spacing: 3px;
+                    margin-bottom: 25px;;
+                }
+                .price {
+                    color: black;
+                    font-weight:700;
+                    font-size: 28px;
+                    margin: 45px 0px 20px;
+                }
+                .pay-now-btn {
+                    padding: 2px 30px;
+                    color: white;
+                    background-color: #e6322f;
+                    font-size: 28px;
+                    font-weight: 500;
+                    border-radius: 10%;
+    
+                    &:hover {
+                        transform: translate(0px, -2px);
+                    }
+                }
+            }
+        }
+
+        .card-plan1 {
+            border: 1px solid #e6322f;
+            border-radius: 10px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+
+            .image {
+                margin: 50px auto 45px;
+                text-align: center;
+
+                .standard-rate {
+                    color: #e6322f;
+    
+                }
+            }
+
+            .standard {
+                text-align: center;
+                .hd {
+                    color: black;
+                    font-size: 28px;
+                    margin-bottom: 25px;
+                    font-weight: 500;
+                }
+                .UntraHd, .no-of-watch {
+                    color: grey;
+                    font-weight: 500;
+                    word-spacing: 3px;
+                    margin-bottom: 25px;;
+                }
+                .price {
+                    color: black;
+                    font-weight:700;
+                    font-size: 28px;
+                    margin: 45px 0px 20px;
+                }
+                .pay-now-btn {
+                    padding: 2px 30px;
+                    color: white;
+                    background-color: #e6322f;
+                    font-size: 28px;
+                    font-weight: 500;
+                    border-radius: 10%;
+    
+                    &:hover {
+                        transform: translate(0px, -2px);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.planImage {
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.plan-col {
+    margin: 20px;
+}
