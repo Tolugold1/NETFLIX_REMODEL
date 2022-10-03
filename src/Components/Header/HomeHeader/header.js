@@ -6,6 +6,7 @@ import { VscArrowRight } from 'react-icons/vsc'
 import { Link } from "react-router-dom"
 import MovieCarousel from '../../Movies/MovieCarousel';
 import Plans from '../../Plan/plan';
+import HomeFooter from '../../Footer/HomeFooter';
 
 
 
@@ -80,6 +81,7 @@ const Header = () => {
       <WatchComponent />
       <MovieCarousel />
       <Plans />
+      <HomeFooter />
       </>
    )
 }
