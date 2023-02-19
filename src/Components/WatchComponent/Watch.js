@@ -11,7 +11,7 @@ const WatchComponent = () => {
          <Card className='watch-card'>
             <Row className='watch-row'>
                <Col sm='9' md='4' className='watch-card1 cd1'>
-                  <h2>Watch Netflix anytime, anywhere. Personalized for you.</h2>
+                  <h2 className='h21'>Watch Netflix anytime, anywhere. Personalized for you.</h2>
                </Col>
                <Col sm='9' md='4' className='d-sm-none d-md-block'></Col>
                <Col sm='9' md='4' className='cd1'>

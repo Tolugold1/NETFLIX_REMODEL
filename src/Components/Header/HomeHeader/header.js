@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './header.styles.scss'
-import { Button, Container, Form,Row, Input, Col, FormFeedback, FormGroup, Label } from 'reactstrap';
+import { Button, Form,Row, Input, Col, FormFeedback, FormGroup, Label } from 'reactstrap';
 import WatchComponent from '../../WatchComponent/Watch';
 import { VscArrowRight } from 'react-icons/vsc'
 import { Link } from "react-router-dom"
@@ -26,8 +26,8 @@ const Header = () => {
    }
 
    return (
-      <>
-      <Container fluid className='header-container'>
+      <div className='netflix1'>
+      <div fluid className='header-container'>
          <div className='nav-head'>
             <a href='/Home'>
                <div className='netflix'>
@@ -48,41 +48,47 @@ const Header = () => {
             
          </div>
          <div className='intro'>
-            <div className='head-text'>
-               <h1 className='ht1'>Unlimited movies, TV shows, and more.</h1>
-               <h3 className='ht2'>Watch anywhere. Cancel anytime.</h3>
-               <h3 className='ht3'>Ready to watch? Enter your email to create or restart your membership.</h3>
-            </div>
-            
-            <Form className='email_form' onSubmit={handleSubmit}>
-               <Row className='email_row'>
-                  <Col sm='10' md='8' className='fill-in'>
-                        <FormGroup>
-                           <Label htmlFor='mail'></Label>
-                           <Input 
-                           type='email' 
-                           name='email' 
-                           placeholder='Enter your email address' 
-                           className='form-input' 
-                           onChange={(event) => {
-                              setMail(event.target.value)
-                           }} />
-                           <FormFeedback className={ show ? 'feedback' : 'nfeedback'}valid>Enter your email</FormFeedback>
-                        </FormGroup>
-                  </Col>
-                  <Col sm='4' md='2' className='start'>
-                     <Label htmlFor='btn'></Label>
-                     <Button type='submit' className='form-btn' ><h5 className='G-started'>Get started</h5> <VscArrowRight className='arrow'/></Button>
-                  </Col>
-               </Row>
-            </Form>  
+            <div>
+               <div className='head-text'>
+                  <h1 className='ht1'>Unlimited movies, TV shows, and more.</h1>
+                  <h3 className='ht2'>Watch anywhere. Cancel anytime.</h3>
+                  <h3 className='ht3'>Ready to watch? Enter your email to create or restart your membership.</h3>
+               </div>
+               
+               <Form className='email_form' onSubmit={handleSubmit}>
+                  <Row className='email_row'>
+                     <Col sm='10' md='8' className='fill-in'>
+                           <FormGroup>
+                              <Label htmlFor='mail'></Label>
+                              <Input 
+                              type='email' 
+                              name='email' 
+                              placeholder='Enter your email address' 
+                              className='form-input' 
+                              onChange={(event) => {
+                                 setMail(event.target.value)
+                              }} />
+                              <FormFeedback className={ show ? 'feedback' : 'nfeedback'}valid>Enter your email</FormFeedback>
+                           </FormGroup>
+                     </Col>
+                     <Col sm='12' md='2' className='start'>
+                        <Label htmlFor='btn'></Label>
+                        <Button type='submit' className='form-btn' ><h5 className='G-started'>Get started</h5> <VscArrowRight className='arrow'/></Button>
+                     </Col>
+                  </Row>
+               </Form> 
+            </div> 
          </div>
-      </Container>
-      <WatchComponent />
-      <MovieCarousel />
+      </div>
+      <div>
+         <WatchComponent />
+      </div>
+      <div> 
+         <MovieCarousel />
+      </div>
       <Plans />
       <HomeFooter />
-      </>
+      </div>
    )
 }
 

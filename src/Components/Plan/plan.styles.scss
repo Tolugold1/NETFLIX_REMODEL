@@ -138,3 +138,27 @@
 .plan-col {
     margin: 20px;
 }
+@media (max-width: 767px) {
+    .plans {
+        padding: 10px;
+    
+        .choose-a-plan {
+            font-size: 30px;
+            letter-spacing: 2px;
+            word-spacing: 3px;
+            font-weight: 400;
+            margin-bottom: 25px;
+            color: black;
+            padding-top: 90px;
+            padding-bottom: 30px;
+            width: auto;
+            text-align: center;
+            margin-left: 15px;
+    
+    
+            .net {
+                color: #e6322f;
+            }
+        }
+    }
+}

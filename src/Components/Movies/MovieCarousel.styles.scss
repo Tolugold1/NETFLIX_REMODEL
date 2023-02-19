@@ -57,3 +57,38 @@
         }
     }
 }
+
+@media (max-width: 767px) {
+    .movie-component {
+        display: none;
+    }
+    .movie-sm {
+        width: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .movie-inner-component-sm {
+            min-height: 400px;
+            display: block;
+            position: relative;
+
+            .mvimgtxt {
+                text-align: center;
+                display: block;
+                color: black;
+                margin-top: 20px;
+    
+                h2 {
+                    color: gold;
+                }
+    
+                .movie_img {
+                    width: 300px;
+                    height: 300px;
+                    object-fit: cover;
+                    object-position: center center;
+                }
+    
+            }
+        }
+    }
+}

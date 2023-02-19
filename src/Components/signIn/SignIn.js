@@ -55,7 +55,7 @@ const SignIn = () => {
           </FormGroup>
           </Form>
 
-          <h6>New to netflix?  <a href='/Home'>Sign up now.</a></h6>
+          <h6>New to netflix?  <a href='#'>Sign up now.</a></h6>
           <h6 className='copy-right'>&copy; Tolu gold netflix design</h6>
           <GiGoldBar  className="gold-icon"/> <AiFillGold className="gold-icon"/>
         </Card>

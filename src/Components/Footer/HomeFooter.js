@@ -1,7 +1,6 @@
 import React from 'react';
 import "./HomeFooter.styles.scss";
 import { Row, Col, Input, FormGroup, Form } from "reactstrap";
-import { IoMdArrowDropdown } from "react-icons/io"
 
 
 const HomeFooter = () => {
@@ -31,23 +30,23 @@ const HomeFooter = () => {
             </Row>
             <Row className="footer-body">
                 <Col sm='5' md='4'>
-                    <h1>FAQ</h1>
-                    <h1>Investor Relations</h1>
-                    <h1>Ways to watch</h1>
-                    <h1>Corporate Information</h1>
-                    <h1>Netflix Originals</h1>
+                    <h5>FAQ</h5>
+                    <h5>Investor Relations</h5>
+                    <h5>Ways to watch</h5>
+                    <h5>Corporate Information</h5>
+                    <h5>Netflix Originals</h5>
                 </Col>
                 <Col sm='5' md='4'>
-                    <h1>Help Center</h1>
-                    <h1>Jobs</h1>
-                    <h1>Terms of use</h1>
-                    <h1>Contact Us</h1>
+                    <h5>Help Center</h5>
+                    <h5>Jobs</h5>
+                    <h5>Terms of use</h5>
+                    <h5>Contact Us</h5>
                 </Col>
                 <Col sm='5' md='4'>
-                    <h1>Account</h1>
-                    <h1>Redeem gitf cards</h1>
-                    <h1>Privacy</h1>
-                    <h1>Speed</h1>
+                    <h5>Account</h5>
+                    <h5>Redeem gitf cards</h5>
+                    <h5>Privacy</h5>
+                    <h5>Speed</h5>
                 </Col>
             </Row>
             <Row className='language'>
